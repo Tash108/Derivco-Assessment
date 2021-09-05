@@ -1,0 +1,20 @@
+block content
+  h1= title
+
+  form(action='/upload', method='POST', enctype='multipart/form-data')
+    input(type='file', name='fileUploaded')
+    input(type='submit')
+  
+    br
+    table.table.table-striped
+      tr
+        th Name
+        th Gender
+      if output
+        each n in output
+          tr
+            td= n.Name
+            td= n.Gender
+    br
+    
+            

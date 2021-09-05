@@ -7,5 +7,3 @@ You can now upload a csv file to continue,to test if writes the results to the o
 Please note, this project does not have certain aspects.
 It does not have the optional requirements.
 *The results are not arranged from highest to lowest.Its is arranged in any order.
-This is due lack of time because of my campus work  and no knowledege in javascript.
-I have never used html language before so therefore I have used pug.
